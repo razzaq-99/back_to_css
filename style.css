@@ -35,15 +35,26 @@ h3{
 
 
 
+@font-face{
+    font-family: Roboto-Light;
+    src: url("Roboto-Light.ttf");
+}
 
+@font-face{
+    font-family: Pacifico-Regular;
+    src: url("Pacifico-Regular.ttf");
+}
 
 h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Roboto-Light;
 }
 
 p{
-    font-family: "Lucida console";
-    font-size: 16px;
+    /* font-family: "Lucida console"; */
+    /* font-family: Roboto; */
+    /* font-family: Pacifico; */
+    font-family: Pacifico-Regular;
+    font-size: 18px;
     /* font-size: 1.5em;                1 em = 100% */
     font-weight: bold;
 }
