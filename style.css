@@ -62,19 +62,38 @@ h3{
 
 
 
-h1{
+/* h1{ */
     /* border-style: dashed;
     border-radius: 5px;
     border-color: hsl(271, 91%, 39%);
     border-width: 4px; */
 
-    border: 2px dashed brown;
+    /* border: 2px dashed brown;
 
-}
+} */
 
-p{
+/* p{
     border-bottom: 5px dotted greenyellow;
     border-left: 5px solid salmon;
     border-right: 5px solid salmon;
     border-top: 5px dotted greenyellow;
+} */
+
+
+h1{
+    text-shadow: 3px 3px 5px salmon;
+}
+
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(219, 214, 214);
+    box-shadow: 3px 3px 5px rgb(240, 133, 121);
+}
+
+#box2{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(234, 231, 231);
+    box-shadow: 3px 3px 5px ;
 }
