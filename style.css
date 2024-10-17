@@ -34,27 +34,47 @@ h3{
 } */
 
 
-
+/* 
 @font-face{
-    font-family: Roboto-Light;
-    src: url("Roboto-Light.ttf");
+    font-family: Roboto-Light; */
+    /* src: url("Roboto-Light.ttf");
 }
 
 @font-face{
     font-family: Pacifico-Regular;
     src: url("Pacifico-Regular.ttf");
-}
+} */
 
-h1{
+/* h1{
     font-family: Roboto-Light;
-}
+} */
 
-p{
+/* p{ */
     /* font-family: "Lucida console"; */
     /* font-family: Roboto; */
     /* font-family: Pacifico; */
-    font-family: Pacifico-Regular;
-    font-size: 18px;
+    /* font-family: Pacifico-Regular; */
+    /* font-size: 18px; */
     /* font-size: 1.5em;                1 em = 100% */
-    font-weight: bold;
+    /* font-weight: bold; */
+/* } */
+
+
+
+
+h1{
+    /* border-style: dashed;
+    border-radius: 5px;
+    border-color: hsl(271, 91%, 39%);
+    border-width: 4px; */
+
+    border: 2px dashed brown;
+
+}
+
+p{
+    border-bottom: 5px dotted greenyellow;
+    border-left: 5px solid salmon;
+    border-right: 5px solid salmon;
+    border-top: 5px dotted greenyellow;
 }
