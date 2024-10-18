@@ -129,13 +129,13 @@ h3{
 
 
 
-body{
+/* body{
     border:3px solid;
     display: flow-root;
 }
 #img1{
     float: left;
-    /* float: right; */
+    float: right; 
     padding: 5px;
     margin-right: 5px;
     border-radius: 20px;
@@ -145,4 +145,15 @@ body{
     margin-right: 10px;
     margin-bottom: 5px;
     border-radius: 20px;
+} */
+
+
+
+
+
+
+div{
+    border: 3px solid;
+    height: 120px;
+    overflow: scroll;  
 }
