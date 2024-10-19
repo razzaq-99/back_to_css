@@ -152,8 +152,30 @@ h3{
 
 
 
-div{
+/* div{
     border: 3px solid;
     height: 120px;
-    overflow: scroll;  
+    overflow: scroll;    (visible,hidden,clip,scroll,auto)
+} */
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: brown;
+    height: 100vh;
+}
+.box{
+    border: 2px solid;
+    background-color: white;
+    padding: 15px;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+    /* max-width:25%; */
+    min-height: 50%;
 }
