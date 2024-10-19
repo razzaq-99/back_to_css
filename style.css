@@ -160,7 +160,7 @@ h3{
 
 
 
-*{
+/* *{
     box-sizing: border-box;
 }
 
@@ -176,6 +176,34 @@ h3{
     width: 50%;
     float: left;
     text-align: center;
-    /* max-width:25%; */
+    /* max-width:25%; 
     min-height: 50%;
+} */
+
+
+
+
+
+
+#box1{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    /* top: 0px; */
+    /* top: 100px;
+    left: 100px; */
+    
+}
+#box2{
+    background-color: rgb(230, 213, 62);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+    /* top: 100px;
+    left: 100px; */
+    
 }
