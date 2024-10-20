@@ -230,17 +230,40 @@ body{
 
 
                            /* Combinators property */
-#container{
+/* #container{
     border: 2px solid;
 }
 
-/* #container p{
+#container p{
     background-color: rgb(167, 94, 234);
 }
 
 #container > p{
     background-color: rgb(167, 94, 234);
-} */
+} 
 #container + p{
     background-color: rgb(167, 94, 234);
+} */
+
+
+
+
+
+
+                             /* Pseudo classes */
+a:link{
+    color: rgb(125, 162, 232);
+    
+}
+
+a:hover{
+    color: rgb(255, 180, 0);
+    font-size: larger;
+}
+
+a:active{
+    color: rgb(193, 166, 200);
+}
+a:visited{
+    color: rgb(230, 203, 155);
 }
