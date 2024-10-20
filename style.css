@@ -267,3 +267,27 @@ a:active{
 a:visited{
     color: rgb(230, 203, 155);
 }
+
+li:hover{
+    background-color: rgba(227, 170, 66, 0.863);
+}
+li:not(:hover){
+    background-color: rgb(105, 104, 104);
+}
+
+li:nth-child(3n+1){
+    background-color: rgb(215, 138, 138);
+}
+
+
+#greet p{
+    background-color: aquamarine;
+    padding: 10px;
+    display: none;
+    text-align: center;
+}
+
+#greet:hover p{
+    display:block;
+
+}
