@@ -213,7 +213,7 @@ h3{
 
 
                         /* Background-image Property */
-*{
+/* *{
     color: white;
 }
 body{
@@ -222,4 +222,25 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+} */
+
+
+
+
+
+
+                           /* Combinators property */
+#container{
+    border: 2px solid;
+}
+
+/* #container p{
+    background-color: rgb(167, 94, 234);
+}
+
+#container > p{
+    background-color: rgb(167, 94, 234);
+} */
+#container + p{
+    background-color: rgb(167, 94, 234);
 }
