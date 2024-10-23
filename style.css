@@ -297,7 +297,7 @@ li:nth-child(3n+1){
 
 
                                /* Pseudo elements*/
-h1::first-letter{
+/* h1::first-letter{
     font-size:2em;
 }
 
@@ -334,4 +334,35 @@ p::selection{
 }
 #mb{
     font-size: 2em;
+} */
+
+
+
+
+
+
+
+                                   /* Pagination */
+
+h1{
+    text-align: center;
+}
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color:black;
+    padding: 8px 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+.pagination a.active{
+    background-color: rgb(31, 213, 31);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color: rgb(214, 211, 211);
+    border-radius: 5px;
+
 }
