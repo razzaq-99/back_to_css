@@ -251,7 +251,7 @@ body{
 
 
                              /* Pseudo classes */
-a:link{
+/* a:link{
     color: rgb(125, 162, 232);
     
 }
@@ -290,4 +290,48 @@ li:nth-child(3n+1){
 #greet:hover p{
     display:block;
 
+} */
+
+
+
+
+
+                               /* Pseudo elements*/
+h1::first-letter{
+    font-size:2em;
+}
+
+p::first-line{
+    background-color: rgb(198, 103, 103);
+    
+}
+p::selection{
+    background-color: rgb(46, 45, 45);
+    color:white;
+}
+
+
+#iphone::after{
+    content: "📱";
+}
+#sam::after{
+    content: "📱";
+}
+#oppo::after{
+    content: "📱";
+}
+#infinix::after{
+    content: "📱";
+}
+
+#mobiles li::marker{
+    content: "✔";
+    color: #07830e;
+    font-size: larger;
+}
+#mobiles li::first-letter{
+    font-size: 2em;
+}
+#mb{
+    font-size: 2em;
 }
