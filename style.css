@@ -343,7 +343,7 @@ p::selection{
 
 
                                    /* Pagination */
-
+/* 
 h1{
     text-align: center;
 }
@@ -365,4 +365,45 @@ h1{
     background-color: rgb(214, 211, 211);
     border-radius: 5px;
 
+} */
+
+
+
+
+
+                                     /* Dropdown menu */
+
+.dropdown{
+    display: inline-block;
+}
+.dropdown button{
+    background-color: rgb(211, 211, 213);
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: medium;
+    border: none;
+}
+.dropdown a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: rgb(230, 230, 238);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.621);
+}
+.dropdown:hover .content{
+    display: block;
+
+}
+.dropdown:hover button{
+    background-color: rgb(135, 132, 132);
+}
+.dropdown a:hover{
+    background-color: rgb(155, 152, 152);
 }
