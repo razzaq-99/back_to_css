@@ -414,7 +414,7 @@ h1{
 
 
                                     /* Navigation Bar */
-body{
+/* body{
     margin: 0px;
 }
 main{
@@ -447,4 +447,53 @@ h1{
 
 .navbar li{
     float: left;
+} */
+
+
+
+
+
+
+
+
+
+                                    /* Semantic Tags */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(214, 216, 217);
+    text-align: center;
+    padding: 15px;
+}
+.navbar{
+    background-color: rgb(28, 28, 29);
+    height: 50px;
+}
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+footer{
+    display: block;
+    clear: both;
+    background-color: rgb(214, 216, 217);
+    text-align: center;
+    padding: 15px;
 }
