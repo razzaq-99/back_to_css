@@ -458,7 +458,7 @@ h1{
 
 
                                     /* Semantic Tags */
-*{
+/* *{
     box-sizing: border-box;
 }
 body{
@@ -502,4 +502,32 @@ footer{
     aside,section,article{
         width: 100%;
     }
+} */
+
+
+
+
+
+
+
+                                     /* Images Gallery */
+.gallery{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(141, 139, 139);
+    margin: 10px;
+    width: 100px;
+}
+
+.gallery .description{
+    padding: 5px;
+}
+
+.gallery:hover{
+    border: 2px solid rgb(53, 52, 52);
+}
+.gallery img{
+    width: 100%;
+    height: auto;
 }
