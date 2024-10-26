@@ -511,7 +511,7 @@ footer{
 
 
                                      /* Images Gallery */
-.gallery{
+/* .gallery{
     display: inline-block;
     padding: 10px;
     text-align: center;
@@ -530,4 +530,26 @@ footer{
 .gallery img{
     width: 100%;
     height: auto;
+} */
+
+
+
+
+
+                                   /* Font Icons */
+.icons{
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.fa-solid.fa-house.fa-5x{
+    color: rgb(112, 112, 112);
+}
+.fa-brands.fa-facebook.fa-5x{
+    color: rgb(65, 56, 242);
+}
+.fa-solid.fa-envelope.fa-5x{
+    color: rgb(237, 121, 6);
 }
