@@ -537,7 +537,7 @@ footer{
 
 
                                    /* Font Icons */
-.icons{
+/* .icons{
     text-align: center;
 }
 .icons a{
@@ -552,4 +552,42 @@ footer{
 }
 .fa-solid.fa-envelope.fa-5x{
     color: rgb(237, 121, 6);
+} */
+
+
+ 
+
+                                     /* Flex Box */
+
+.container{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* justify-content: center; */
+    border: 5px solid black;
+    height: 90vh;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: start;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    background-color: rgb(167, 235, 10);
+}
+#box2{
+    background-color: rgb(13, 39, 235);
+}
+#box3{
+    background-color: rgb(239, 129, 11);
+}
+#box4{
+    background-color: salmon;
 }
