@@ -599,7 +599,7 @@ footer{
 
 
                                       /* Transform */
-body{
+/* body{
     margin: 0px;
 }
 .box{
@@ -614,13 +614,13 @@ body{
    
     background-color: salmon;
 
-    /* transform: translateX(100px); */
-    /* transform: translateY(300px); */
-    /* transform: translate(150px,230px); */
+    transform: translateX(100px); 
+    transform: translateY(300px);
+    transform: translate(150px,230px);
 
-    /* transform: rotateX(180deg); */
-    /* transform: rotateY(180deg); */
-    /* transform: rotateZ(270deg); */
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+     transform: rotateZ(270deg); 
     
 
 
@@ -635,4 +635,6 @@ body{
 
 img{
     transform: translateX(200px) rotateZ(45deg);
-}
+} */
+
+
